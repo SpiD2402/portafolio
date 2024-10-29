@@ -84,7 +84,7 @@ export const ProyectosPage = () => {
 
                                     </div>
                                     <div className="px-6 pt-4 pb-2 text-center">
-                                        <a href="https://pokemon-app-three-theta.vercel.app/"
+                                        <a href="https://cart-eccomerce.vercel.app/"
                                            className="w-32 btn-pagina h-10 bg-red-700 rounded text-white inline-block text-center leading-10">
                                             Ver página
                                         </a>
