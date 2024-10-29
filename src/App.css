@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+*{
+  @apply font-customP
+}
+
+a{
+  @apply  font-bold text-amber-50
+}
+.general{
+  color: white;
+}
+
+span{
+  color: cyan;
+}
+
+/* Aplica el color negro a los elementos internos cuando haces hover sobre el Link */
+.hover:hover p,
+.hover:hover a,
+.hover:hover span,
+.hover:hover ion-icon
+{
+  color: mediumslateblue;
+}
+
+.border-gradient-cyan {
+  position: relative;
+}
+
+.border-gradient-cyan::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px; /* Altura del borde */
+  background: linear-gradient(to right, #00FFFF, #00BFFF); /* Degradado cian */
+}
+
+.btn-pagina{
+  background: linear-gradient(to right, #00FFFF, #00BFFF); /* Degradado cian */
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+.page-font{
+  @apply font-customP
+}
+
+.info-name {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.info-rubro{
+  background: linear-gradient(to right, #00FFFF, #00BFFF); /* Degradado cian */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid white; /* Color de la flecha */
+  margin-left: 8px; /* Espacio entre el texto y la flecha */
+  display: inline-block;
+}
+
+
+
+.info-data{
+  font-size: 1.2rem;
+  color: #C9C9C9;
+}
+
+.info-sobre-mi{
+  font-size: 1.5rem;
+  color: white;
+}
+
+
+.info-study{
+  font-size: 0.8rem;
+  color: white;
+}
+
+.info-centro-study{
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+
+  background: linear-gradient(to right, #00FFFF, #00BFFF); /* Degradado cian */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.info-fecha{
+  font-size: 0.7rem;
+}
+
+.info-personal p {
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid white; /* Agrega un borde abajo */
+  margin-bottom: 0.5rem;
+}
+
+.info-personal span {
+  font-weight: normal;
+  color: #C9C9C9;
+
+
+}
+
+.info-background{
+  background: #1C1C1C;
+}
+
+.custom-button {
+  margin-top: 1rem;
+  border-radius: 5px;
+  border: 1px solid #06b6d4; /* border-cyan-400 */
+  color: white; /* text-amber-50 */
+  padding-top: 0.5rem; /* py-2 (8px) */
+  padding-bottom: 0.5rem; /* py-2 (8px) */
+  padding-left: 1.5rem; /* px-6 (24px) */
+  padding-right: 1.5rem; /* px-6 (24px) */
+  /* Puedes agregar más estilos si es necesario */
+}
+
+.custom-button{
+  @apply font-customP font-bold
+}
+
+.custom-button:hover{
+    background: #06b6d4;
+}
+
